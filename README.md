@@ -68,3 +68,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
+echo "# Fullstack-Reactjs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tricdt/Fullstack-Reactjs.git
+git push -u origin main
+
+git remote set-url origin https://github.com/tricdt/Fullstack-Reactjs.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,391 @@
+.slick-prev {
+    left: 0px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+.slick-next {
+    right: 0px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.section-share {
+    &.section-specialty {
+        background: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        height: 500px !important;
+        border-top: 1px solid #f5f5f5;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+    .section-body {
+        .section-customize {
+            .bg-image {
+                margin: 0 25px;
+                width: 278px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+
+                &.section-specialty {
+                    background-image: url('../../assets/specialty/kham-benh-co-xuong-khop.jpg');
+                }
+
+                &.section-medical-facility {
+                    background-image: url('../../assets/MedicalFacility/pk-dhyd1.jpg');
+
+                }
+
+                &.section-outstanding-doctor {
+                    background-image: url('../../assets/OutStandingDoctor/anh-dai-dien-bs.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/HandBook/benh-tieu-duong.jpg');
+                }
+
+
+            }
+
+
+
+            .bottom-title {
+                padding: 0 100px;
+            }
+        }
+
+
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+
+        .customize-border {
+            border: 1px solid orange;
+            padding: 20px;
+        }
+    }
+}
+
+.section-share {
+    height: 330px;
+
+    .section-container {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+
+            .title-section {
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+    }
+}
+
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+    position: sticky;
+    top: 0px;
+    background: white;
+    z-index: 10000;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 20%;
+            display: flex;
+            align-items: center;
+
+            .header-logo {
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+                transform: scale(0.5, 0.5);
+                margin-left: -45px;
+            }
+
+            i {
+                font-size: 25px;
+                color: grey;
+                cursor: pointer;
+            }
+        }
+
+        .center-content {
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .support {
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .language-en {
+                margin: 0 10px;
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: blue;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background-image: url('../../assets/header-background.jpg');
+    height: 485px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        background-image: linear-gradient(rgba(126, 126, 126, 0.25), rgba(255, 255, 255, 0.1));
+        padding-top: 15px;
+        height: 65%;
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 25px;
+            background: #f7d800;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+
+    }
+
+    .content-down {
+        height: 35%;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9));
+
+        .options {
+            text-align: center;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+
+            .option-child {
+                width: 100px;
+
+                .icon-child {
+                    background: white;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+
+                    i {
+                        color: #49bce2;
+                        font-size: 20px;
+                    }
+                }
+
+                .text-child {
+                    font-size: 17px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #49bce2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: unset;
+    }
+}
+
+.section-about {
+    padding: 0 100px;
+
+    .section-about-header {
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+
+            p {
+                margin-top: 15px;
+                text-align: justify;
+                font-style: italic;
+            }
+        }
+    }
+}
